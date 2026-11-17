@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <div class="left-panel">
+            <h1>WELCOME BACK!</h1>
+            <p>Enter your personal details to use art or safe features</p>
+            <button class="signin-btn">SIGN IN</button>
+        </div>
+        <div class="right-panel">
+            <h2>Create Account</h2>
+            <div>
+                <img src="facebook-color-svgrepo-com.svg" alt="facebook" class="icon">
+                <img src="Cybersecurity glossary (terms and definitions).jpg" alt="" class="icon">
+            </div>
+            <p>Or use your Email for registration</p>
+            <input type="text" placeholder="NAME:">
+            <br>
+            <input type="text" placeholder="email:">
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <button class="signup-btn">SIGN UP</button>
+        </div>
+    </div>
+</body>
+</html>
+.*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color:rgb(175, 174, 174);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    margin: 7px;
+}
+
+.container{
+    width:600px;
+    height: 420px;
+    background: rgb(213, 228, 198);
+    border-radius: 2em;
+    display: flex;
+    overflow: auto;
+    box-shadow: 0 15px 25px
+    lch(5.98% 0.44 19.18);
+}
+.left-panel{
+    text-align:center;
+    background-color: rgb(155, 212, 219);
+    border-radius: 0px 120px 65px 0;
+    overflow:auto;
+    width: 60%;
+    color: white;
+}
+.left-panel h1{
+    margin-top: 90px;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 35px;
+}
+.left-panel p{
+    margin-top: 45px;
+}
+.left-panel button:hover{
+    background-color: rgb(229, 238, 149);
+    cursor: pointer;
+}
+.signin-btn{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 3px;
+    background: none;
+    color: white;
+}
+.right-panel{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.right-panel button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.signup-btn{
+align-content: center;
+margin-top: 15px;
+margin-left: 55px;
+background: none;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 5px;
+}
+.icon{
+    width: 200px;
+    height: 20px;
+}
+.right-panel p{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <title>Facebook-color</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+
+</defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Color-" transform="translate(-200.000000, -160.000000)" fill="#4460A0">
+            <path d="M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z" id="Facebook">
+
+</path>
+        </g>
+    </g>
+</svg>
